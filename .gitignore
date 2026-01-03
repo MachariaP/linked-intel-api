@@ -1,0 +1,41 @@
+# --- Python / Virtual Environment ---
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+share/
+*.py[cod]
+*$py.class
+__pycache__/
+
+# --- Django Specific ---
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.flaskenv
+*.env
+
+# --- Scraper / Browser Logs ---
+# If you use Playwright or Puppeteer
+.auth/
+target/
+logs/
+*.log
+debug.log
+
+# --- IDEs and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Packages ---
+# It's better to use requirements.txt or pyproject.toml than tracking the whole site-packages
